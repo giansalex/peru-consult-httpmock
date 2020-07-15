@@ -1,0 +1,30 @@
+{
+  "Guid": "dae02a0d-8a33-46ed-aab0-afbecc8643f1",
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/srop_publico/Consulta/api/AfiliadoApi/GetNombresCiudadano",
+          "IgnoreCase": false
+        }
+      ]
+    },
+    "Methods": [
+      "post"
+    ],
+    "Body": {
+      "Matcher": {
+        "Name": "JmesPathMatcher",
+        "Pattern": "CODDNI == '00000000'"
+      }
+    }
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Body": "{ \"data\": \"||\", \"success\":true, \"mensaje\":\"\"}",
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

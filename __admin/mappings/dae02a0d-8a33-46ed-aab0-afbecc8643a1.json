@@ -1,0 +1,30 @@
+{
+  "Guid": "dae02a0d-8a33-46ed-aab0-afbecc8643a1",
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/cl-ti-itestadousr/usrS00Alias",
+          "IgnoreCase": false
+        }
+      ]
+    },
+    "Methods": [
+      "POST"
+    ],
+    "Body": {
+      "Matcher": {
+        "Name": "ExactMatcher",
+        "Pattern": "accion=e1&ruc=20000000001&usr=HUAFDSMU"
+      }
+    }
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">\n    <title>Consulta Clave SOL Vigente</title>\n</head>\n\n<link href=\"/a/css/estilos2_0.css\" rel=\"stylesheet\">\n<SCRIPT LANGUAGE=\"JavaScript\" SRC=\"/a/js/js.js\"></SCRIPT>\n<body>\n<div align=\"center\">\n    <table width=\"100%\" cellspacing=\"2\" cellpadding=\"3\" class=\"form-table\"><tr><td class=\"t1\"><p align=\"center\">Consulta Vigencia de Clave SOL</p></td></tr></table>\n</div>\n<br>\n<table width=\"100%\" cellspacing=\"2\" cellpadding=\"3\" class=\"form-table\">\n    <tr>\n        <td>\n            <table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n                <tr align=\"center\">\n                    <td class=\"bgn\">RUC: 10480048356</td>\n                </tr>\n                <tr align=\"center\">\n                    <td class=\"bgn\">EMPRESA QUE CONSULTA             <hr></td>\n                </tr>\n                <tr align=\"center\">\n                    <td class=\"bgn\">Usuario: GROOLLJ</td>\n                </tr>\n                <tr align=\"center\">\n                    <td>El usuario ingresado se encuentra:<strong>ACTIVO</strong></td>\n                </tr>\n                <tr align=\"center\">\n                    <td>\n\n                    </td>\n                </tr>\n            </table>\n        </td>\n    </tr>\n</table>\n<br>\n<div class=\"buttonbar\">\n    <input class=\"form-button\" type=\"button\" value=\"Retornar\" onclick=\"history.go(-1)\">\n</div>\n<br>\n<html>\n<head>\n    <title>Untitled</title>\n</head>\n\n<link href=\"/a/css/estilos2_0.css\" rel=\"stylesheet\">\n<body>\n<table width=\"100%\" cellspacing=\"0\" cellpadding=\"5\" class=\"form-table\">\n    <tr>\n        <td>\n            <div align=\"center\">\n                <table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n\n                    <tr>\n                        <th class=\"bgn\">Copyright © SUNAT 1997 - 2018</th>\n                    </tr>\n                    <tr>\n                        <td width=\"100%\" align=\"right\"><a href=\"http://www.sunat.gob.pe/inicio.htm\" target=\"_parent\"><IMG alt=Inicio src=\"/a/imagenes/sunatpc.jpg\" align=bottom border=0></a></td>\n                    </tr>\n                </table>\n            </div>\n        </td>\n    </tr>\n</table>\n</body>\n</html>\n\n\n</body>\n</html>",
+    "Headers": {
+      "Content-Type": "text/html; charset=ISO-8859-1"
+    }
+  }
+}

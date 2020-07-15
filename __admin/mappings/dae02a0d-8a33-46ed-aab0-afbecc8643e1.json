@@ -1,0 +1,35 @@
+{
+  "Guid": "dae02a0d-8a33-46ed-aab0-afbecc8643e1",
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/cl-ti-itmrconsruc/captcha",
+          "IgnoreCase": false
+        }
+      ]
+    },
+    "Methods": [
+      "GET"
+    ],
+    "Params": [
+      {
+        "Name": "accion",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "random"
+          }
+        ]
+      }
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Body": "113837302",
+    "Headers": {
+      "Set-Cookie": "ITMRCONSRUCSESSION=MJrHdYRQqXKKmknPhpbfvVGjsm0jDKQ7xGJ8DmpTdQYJBlpSlynGSSzdt6GXHx2G11LK32Tyn2TGkQQJD2hPXWWPkpyhBYjmy7rLThQ1pvvnWDgg2FS7MvhwLvdZtYwQL781Wc8zJgLd0wpJSlj9YXNnl2hK1j6VG9c62yGbGJhLl8q21HJ1dzkyRymjpCs3tny9W4L98d5GfX2v9hQ2pW6vhVXY5DnNT12TYyKvQsqNbJXRgChpfGGNFPHfH6GL!-896471932!2146499504; path=/; HttpOnly"
+    }
+  }
+}
