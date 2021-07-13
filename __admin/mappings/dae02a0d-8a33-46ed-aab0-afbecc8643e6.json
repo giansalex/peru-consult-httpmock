@@ -15,8 +15,8 @@
     ],
     "Body": {
       "Matcher": {
-        "Name": "ExactMatcher",
-        "Pattern": "accion=consPorRazonSoc&razSoc=BVA FOODS"
+        "Name": "RegexMatcher",
+        "Pattern": "accion=consPorRazonSoc&razSoc=*"
       }
     }
   },

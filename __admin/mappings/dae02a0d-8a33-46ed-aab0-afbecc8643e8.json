@@ -15,7 +15,7 @@
     ],
     "Body": {
       "Matcher": {
-        "Name": "ExactMatcher",
+        "Name": "RegexMatcher",
         "Pattern": "accion=consPorRuc&ruc=20493919271*"
       }
     }
