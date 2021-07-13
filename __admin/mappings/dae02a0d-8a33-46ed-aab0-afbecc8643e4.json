@@ -16,7 +16,7 @@
     "Body": {
       "Matcher": {
         "Name": "RegexMatcher",
-        "Pattern": "accion=consPorRuc&ruc=20550263948*"
+        "Pattern": "accion=consPorRuc&nroRuc=20550263948*"
       }
     }
   },
