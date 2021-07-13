@@ -11,19 +11,14 @@
       ]
     },
     "Methods": [
-      "GET"
+      "POST"
     ],
-    "Params": [
-      {
-        "Name": "accion",
-        "Matchers": [
-          {
-            "Name": "ExactMatcher",
-            "Pattern": "consPorRazonSoc"
-          }
-        ]
+    "Body": {
+      "Matcher": {
+        "Name": "ExactMatcher",
+        "Pattern": "accion=consPorRazonSoc&razSoc=BVA FOODS"
       }
-    ]
+    }
   },
   "Response": {
     "StatusCode": 200,
