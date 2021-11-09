@@ -1,0 +1,44 @@
+{
+  "Guid": "dae02a0d-8a33-46ed-aab0-afbecc8643d1",
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/ol-ti-itatencionf5030/registro/solicitante",
+          "IgnoreCase": false
+        }
+      ]
+    },
+    "Methods": [
+      "post"
+    ],
+    "Params": [
+      {
+        "Name": "tipDocu",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "1"
+          }
+        ]
+      },
+      {
+        "Name": "numDocu",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "48004836"
+          }
+        ]
+      }
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Body": "{ \"apeMatSoli\": \"PATERNO\", \"apePatSoli\":\"MATERNO\", \"nombreSoli\":\"NOMBRES\"}",
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

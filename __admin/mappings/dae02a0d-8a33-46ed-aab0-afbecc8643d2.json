@@ -1,0 +1,44 @@
+{
+  "Guid": "dae02a0d-8a33-46ed-aab0-afbecc8643d2",
+  "Request": {
+    "Path": {
+      "Matchers": [
+        {
+          "Name": "WildcardMatcher",
+          "Pattern": "/ol-ti-itatencionf5030/registro/solicitante",
+          "IgnoreCase": false
+        }
+      ]
+    },
+    "Methods": [
+      "post"
+    ],
+    "Params": [
+      {
+        "Name": "tipDocu",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "1"
+          }
+        ]
+      },
+      {
+        "Name": "numDocu",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "00000000"
+          }
+        ]
+      }
+    ]
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Body": "{ \"error\": \"Número de DNI no se encuentra en el padrón de RENIEC\"}",
+    "Headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
