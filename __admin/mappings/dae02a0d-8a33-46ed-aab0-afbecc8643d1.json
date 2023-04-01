@@ -31,6 +31,15 @@
             "Pattern": "48004836"
           }
         ]
+      },
+      {
+        "Name": "tipPers",
+        "Matchers": [
+          {
+            "Name": "ExactMatcher",
+            "Pattern": "1"
+          }
+        ]
       }
     ]
   },
